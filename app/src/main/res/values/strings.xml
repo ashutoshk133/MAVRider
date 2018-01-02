@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MAV-Rider</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_request_ride">Request a Ride</string>
+    <string-array name="sourcearray">
+        <item>Select Source</item>
+        <item>Arbor Oaks</item>
+        <item>Meadow Run</item>
+        <item>University Center</item>
+        <item>ERB</item>
+        <item>Garden Club</item>
+        <item>Centennial Court</item>
+        <item>LOT 49</item>
+        <item>Central Library</item>
+        <item>MAC</item>
+        <item>Nedderman Hall</item>
+        <item>The Arlie</item>
+    </string-array>
+    <string-array name="destinationarray">
+        <item>Select Destination</item>
+        <item>Arbor Oaks</item>
+        <item>Meadow Run</item>
+        <item>University Center</item>
+        <item>ERB</item>
+        <item>Garden Club</item>
+        <item>Centennial Court</item>
+        <item>LOT 49</item>
+        <item>Central Library</item>
+        <item>MAC</item>
+        <item>Nedderman Hall</item>
+        <item>The Arlie</item>
+    </string-array>
+
+    <string-array name="riderarray">
+        <item>Select Riders</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_register_arider">RegisterARider</string>
+    <string name="title_activity_confirm_user">ConfirmUser</string>
+    <string name="title_activity_edit_profile_details">EditProfileDetails</string>
+    <string name="title_activity_waiting_screen">WaitingScreen</string>
+    <string name="title_activity_current_ride">CurrentRide</string>
+    <string name="title_activity_ratings_feedback">RatingsFeedback</string>
+    <string name="title_activity_forgot_pwd">ForgotPwd</string>
+    <string name="title_activity_confirm_ans">ConfirmAns</string>
+    <string name="title_activity_reset_pass">ResetPass</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

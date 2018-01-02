@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.techwarriors.mav_rider.RegisterARider"
+    tools:showIn="@layout/activity_registerarider">
+
+    <EditText
+        android:id="@+id/etridername"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Rider Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etriderphone"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etridername"
+        android:layout_below="@+id/etridername"
+        android:layout_marginTop="20dp"
+        android:maxLength="10"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:layout_alignEnd="@+id/etriderphone"
+        android:layout_below="@+id/etriderphone"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etreenterpass"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etpass"
+        android:layout_below="@+id/etpass"
+        android:maxLength="20"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Re-Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etridersecque"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etreenterpass"
+        android:layout_below="@+id/etreenterpass"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Security Question"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etridersecans"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etridersecque"
+        android:layout_below="@+id/etridersecque"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Security Answer"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onRegister"
+        android:text="Register Me"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

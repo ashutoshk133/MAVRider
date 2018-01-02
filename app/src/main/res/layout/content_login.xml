@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.techwarriors.mav_rider.Login"
+    tools:showIn="@layout/activity_login">
+
+    <EditText
+        android:id="@+id/utaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pwd"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#f58025"
+        android:ems="10"
+        android:foregroundTint="@color/colorAccent"
+        android:hint="UTA ID"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="#000000"/>
+    />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+
+        android:maxLength="20"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b7dfff"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:onClick="onClick"
+        android:text="LOG IN"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:background="#b7dfff"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentStart="true"
+        android:onClick="onForget"
+        android:textColor="#000000"
+        android:text="Forgot Password" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:background="#b7dfff"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onRegister"
+        android:textColor="#000000"
+        android:text="Register" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/account"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_req"
+            android:icon="@drawable/carconnected"
+            android:title="Request A Ride" />
+        <item
+            android:id="@+id/nav_SOS"
+            android:icon="@drawable/alarmlight"
+            android:title="Call SOS" />
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Call Helpline"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

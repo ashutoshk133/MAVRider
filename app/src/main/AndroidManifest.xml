@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techwarriors.mav_rider">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".RequestRide"
+            android:label="@string/title_activity_request_ride"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterARider"
+            android:label="@string/title_activity_register_arider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmUser"
+            android:label="@string/title_activity_confirm_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfileDetails"
+            android:label="@string/title_activity_edit_profile_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WaitingScreen"
+            android:label="@string/title_activity_waiting_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurrentRide"
+            android:label="@string/title_activity_current_ride"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RatingsFeedback"
+            android:label="@string/title_activity_ratings_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPwd"
+            android:label="@string/title_activity_forgot_pwd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmAns"
+            android:label="@string/title_activity_confirm_ans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPass"
+            android:label="@string/title_activity_reset_pass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
